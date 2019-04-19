@@ -79,7 +79,7 @@ class InfoDialog extends Component {
         <DialogActions>
           <a
             style={{ textDecoration: 'none' }}
-            href="https://www.github.com/arraysius/"
+            href="https://www.github.com/arraysius/themakanzone"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -134,7 +134,8 @@ class MyAppBar extends Component {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" color="inherit">
-            The Makan Zone <span role="img" aria-label="emoji">🍽️🗺️</span>
+            The Makan Zone
+            {/* <span role="img" aria-label="emoji">🍽️🗺️</span> */}
           </Typography>
 
           <div className={classes.flex} />
